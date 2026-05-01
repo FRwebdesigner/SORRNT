@@ -33,7 +33,7 @@ h1 {
 }
 
 .subtitle {
-    font-size: 1.6rem;
+    font-size: 1.65rem;
     opacity: 0.95;
 }
 
@@ -53,13 +53,13 @@ h2 {
 }
 
 .intro {
-    font-size: 1.25rem;
-    max-width: 800px;
+    font-size: 1.28rem;
+    max-width: 820px;
     margin: 0 auto 60px;
     text-align: center;
 }
 
-/* Estilo para atracciones (lugares turísticos y platos gastronómicos) */
+/* Estilo principal para todas las secciones (lugares, platos y restaurantes) */
 .attraction {
     display: flex;
     flex-wrap: wrap;
@@ -105,7 +105,7 @@ h2 {
     border-radius: 4px;
 }
 
-/* Estilo específico para las secciones de gastronomía */
+/* Estilo para secciones de gastronomía (platos y restaurantes recomendados) */
 .consejo-gastro {
     background: #fff9e6;
     padding: 35px;
@@ -121,7 +121,7 @@ h2 {
     font-size: 1.08rem;
 }
 
-/* Responsive Design */
+/* Responsive */
 @media (max-width: 768px) {
     h1 { 
         font-size: 3.3rem; 
@@ -134,6 +134,6 @@ h2 {
         font-size: 2.4rem; 
     }
     .subtitle {
-        font-size: 1.4rem;
+        font-size: 1.45rem;
     }
 }
